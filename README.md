@@ -407,7 +407,7 @@ Todo el contenido de este repositorio se enmarca dentro del ordenamiento jurídi
 
 [![GitHub](https://img.shields.io/badge/GitHub-AlejoTechEngineer-181717?style=for-the-badge&logo=github)](https://github.com/AlejoTechEngineer)
 
-**Ingeniería Informática · Sexto Semestre**  
+**Ingeniería Informática**  
 Fundación Universitaria Internacional de la Rioja · Bogotá D.C.  
 Febrero 2026
 
