@@ -33,6 +33,7 @@
 ## 📋 Tabla de Contenido
 
 - [🎯 Descripción del Proyecto](#-descripción-del-proyecto)
+- [Arquitectura](#arquitectura)
 - [⚖️ Aviso Legal](#️-aviso-legal)
 - [🗂️ Estructura del Repositorio](#️-estructura-del-repositorio)
 - [☠️ Ciberdelitos Analizados](#️-ciberdelitos-analizados)
@@ -42,23 +43,6 @@
 - [👨‍💻 Autor](#-autor)
 
 ---
-
-## Arquitectura
-
-```mermaid
-flowchart TD
-    A[Entorno de laboratorio controlado - Solo uso educativo] --> B[Scripts Python educativos]
-    B --> C[phishing_smishing.py - Servidor de captura simulado]
-    B --> D[ransomware.py - Simulacion de cifrado]
-    B --> E[keylogger.py - Captura de pulsaciones]
-    B --> F[botnet_server.py + botnet_client.py - Arquitectura C2 simulada]
-    B --> G[fradude_del_CEO.py - Ingenieria social]
-    C --> H[detector_cabeceras.py - Herramienta defensiva]
-    D --> I[detector_ransomware.py - Monitor de comportamiento]
-    E --> J[detector_hooks_teclado.py - Detector de procesos]
-    H & I & J --> K[Marco MITRE ATT&CK - Clasificacion de tecnicas]
-    K --> L[Informe PDF - Analisis tecnico + juridico Ley 1273/2009 Colombia]
-```
 
 ## 🎯 Descripción del Proyecto
 
@@ -78,6 +62,23 @@ El trabajo combina **análisis teórico**, **vectores de ataque paso a paso**, *
 | 📊 **Mapeo MITRE ATT&CK** | Clasificación con el framework internacional |
 
 ---
+
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[Entorno de laboratorio controlado - Solo uso educativo] --> B[Scripts Python educativos]
+    B --> C[phishing_smishing.py - Servidor de captura simulado]
+    B --> D[ransomware.py - Simulacion de cifrado]
+    B --> E[keylogger.py - Captura de pulsaciones]
+    B --> F[botnet_server.py + botnet_client.py - Arquitectura C2 simulada]
+    B --> G[fradude_del_CEO.py - Ingenieria social]
+    C --> H[detector_cabeceras.py - Herramienta defensiva]
+    D --> I[detector_ransomware.py - Monitor de comportamiento]
+    E --> J[detector_hooks_teclado.py - Detector de procesos]
+    H & I & J --> K[Marco MITRE ATT&CK - Clasificacion de tecnicas]
+    K --> L[Informe PDF - Analisis tecnico + juridico Ley 1273/2009 Colombia]
+```
 
 ## ⚖️ Aviso Legal
 
