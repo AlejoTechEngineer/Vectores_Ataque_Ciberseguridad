@@ -43,6 +43,23 @@
 
 ---
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[Entorno de laboratorio controlado - Solo uso educativo] --> B[Scripts Python educativos]
+    B --> C[phishing_smishing.py - Servidor de captura simulado]
+    B --> D[ransomware.py - Simulacion de cifrado]
+    B --> E[keylogger.py - Captura de pulsaciones]
+    B --> F[botnet_server.py + botnet_client.py - Arquitectura C2 simulada]
+    B --> G[fradude_del_CEO.py - Ingenieria social]
+    C --> H[detector_cabeceras.py - Herramienta defensiva]
+    D --> I[detector_ransomware.py - Monitor de comportamiento]
+    E --> J[detector_hooks_teclado.py - Detector de procesos]
+    H & I & J --> K[Marco MITRE ATT&CK - Clasificacion de tecnicas]
+    K --> L[Informe PDF - Analisis tecnico + juridico Ley 1273/2009 Colombia]
+```
+
 ## 🎯 Descripción del Proyecto
 
 > *"El conocimiento profundo de los mecanismos de ataque no constituye una amenaza en sí mismo, sino una herramienta imprescindible para el fortalecimiento de la cultura de ciberseguridad."*
@@ -426,19 +443,3 @@ Febrero 2026
 ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=AlejoTechEngineer.Vectores_Ataque_Ciberseguridad)
 
 </div>
-## Arquitectura
-
-```mermaid
-flowchart TD
-    A[Entorno de laboratorio controlado - Solo uso educativo] --> B[Scripts Python educativos]
-    B --> C[phishing_smishing.py - Servidor de captura simulado]
-    B --> D[ransomware.py - Simulacion de cifrado]
-    B --> E[keylogger.py - Captura de pulsaciones]
-    B --> F[botnet_server.py + botnet_client.py - Arquitectura C2 simulada]
-    B --> G[fradude_del_CEO.py - Ingenieria social]
-    C --> H[detector_cabeceras.py - Herramienta defensiva]
-    D --> I[detector_ransomware.py - Monitor de comportamiento]
-    E --> J[detector_hooks_teclado.py - Detector de procesos]
-    H & I & J --> K[Marco MITRE ATT&CK - Clasificacion de tecnicas]
-    K --> L[Informe PDF - Analisis tecnico + juridico Ley 1273/2009 Colombia]
-```
